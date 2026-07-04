@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Glowing background effect -->
+  <circle cx="50" cy="50" r="45" fill="black" />
+  <circle cx="50" cy="50" r="40" stroke="url(#goldGradient)" stroke-width="2" stroke-dasharray="6 4" opacity="0.6" />
+  
+  <!-- Left Bracket < -->
+  <path d="M 38 35 L 23 50 L 38 65" stroke="url(#goldGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Right Bracket > -->
+  <path d="M 62 35 L 77 50 L 62 65" stroke="url(#goldGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Sleek slash or core dot -->
+  <circle cx="50" cy="50" r="8" fill="url(#goldGradient)" />
+  
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+  </defs>
+</svg>
