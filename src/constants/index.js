@@ -20,55 +20,55 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Security & Compliance",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Downtime and breaches cost trust and revenue. I harden apps against real threats and build automated compliance-readiness into your stack from day one.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Threat Detection",
+        description: "(OAuth, Multi-Factor Authentication, Rate Limiting)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Access Control",
+        description: "(RBAC, Zero Trust Architectures)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Compliance Automation",
+        description: "(GDPR, HIPAA, SOC2, and PCI-DSS Ready Workflows)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Automation & AI",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Manual, repetitive work slows teams down. I build AI-driven automation — bots, workflows, smart systems— that save hours every week.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Automated Workflows",
+        description: "(Automated Lead Generation, Data Entry, Notifications)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "AI Agents",
+        description: "(Internal Bots, Smart CRMs, Automated Support)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Integration Services",
+        description: "(Connecting Your Existing Tools Seamlessly)",
       },
     ],
   },
   {
     title: "Web & Mobile Apps",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love — functional and fast on every screen.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "POS & CMS Systems",
+        description: "(Retail Management, Content Systems)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Custom Dashboards",
+        description: "(Admin Panels, Real-time Data Visualization, Analytics)",
       },
       {
         title: "E-Commerce",
@@ -171,11 +171,12 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
+  { name: "Twitter/X", href: "https://x.com/sohaib015m" },
   {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    name: "Whatsapp",
+    href: "https://wa.me/+923126745890",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/sohaib015m/" },
+  { name: "GitHub", href: "https://github.com/co-obalt" },
+  { name: "Calendar", href: "https://calendar.app.google/PZ293cTcAYyrmjGq9" },
 ];

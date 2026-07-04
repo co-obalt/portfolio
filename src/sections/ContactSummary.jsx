@@ -14,9 +14,9 @@ const ContactSummary = () => {
   ];
   const items2 = [
     "contact us",
+    "let's talk",
     "contact us",
-    "contact us",
-    "contact us",
+    "let's talk",
     "contact us",
   ];
 
@@ -41,10 +41,10 @@ const ContactSummary = () => {
       <Marquee items={items} />
       <div className="overflow-hidden font-light text-center contact-text-responsive">
         <p>
-          “ Let’s build a <br />
-          <span className="font-normal">memorable</span> &{" "}
-          <span className="italic">inspiring</span> <br />
-          web application <span className="text-gold">together</span> “
+          “ Let’s build<br />
+          <span className="font-normal">something</span> that{" "}
+          <span className="italic">actually</span> <br />
+          moves the <span className="text-gold">needle</span> “
         </p>
       </div>
       <Marquee

@@ -8,12 +8,10 @@ const About = () => {
   const text = `Passionate about clean architecture
     I build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const aboutText = `I care about code that holds up under real traffic and
+real users, not just demos. When I'm not building:
+⚡ Running DELTARQ, building first fully autonomous AI-native security company.
+🎯 Freelancing, Turning ideas into shipped products`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -41,7 +39,7 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Cod with purpose, Built to scale"}
+        subTitle={"Code with purpose, Built to scale"}
         title={"About"}
         text={text}
         textColor={"text-white"}
