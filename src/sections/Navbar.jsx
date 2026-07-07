@@ -74,8 +74,12 @@ const Navbar = () => {
     let lastScrollY = window.scrollY;
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+      const shouldShow = currentScrollY <= lastScrollY || currentScrollY < 10;
 
-      setShowBurger(currentScrollY <= lastScrollY || currentScrollY < 10);
+      setShowBurger((prev) => {
+        if (prev === shouldShow) return prev;
+        return shouldShow;
+      });
 
       lastScrollY = currentScrollY;
     };

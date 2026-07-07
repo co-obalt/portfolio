@@ -168,13 +168,11 @@ const Works = () => {
           ref={previewRef}
           className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0"
         >
-          {currentIndex !== null && (
-            <img
-              src={projects[currentIndex].image}
-              alt="preview"
-              className="object-cover w-full h-full"
-            />
-          )}
+          <img
+            src={currentIndex !== null ? projects[currentIndex].image : null}
+            alt="preview"
+            className="object-cover w-full h-full"
+          />
         </div>
       </div>
     </section>

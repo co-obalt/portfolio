@@ -35,7 +35,7 @@ real users, not just demos. When I'm not building:
       ease: "power4.out",
       scrollTrigger: { trigger: imgRef.current },
     });
-  });
+  }, []);
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
