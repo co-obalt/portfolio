@@ -11,7 +11,7 @@ results driven webs/apps`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        title={"Sohaib M."}
+        title={"Prime Tech"}
         text={text}
         textColor={"text-black"}
       />
