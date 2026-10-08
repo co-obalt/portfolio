@@ -3,7 +3,7 @@ export const servicesData = [
   {
     title: "FullStack Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Your business deserves a fast, secure, and future-proof digital foundation. We develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
     items: [
       {
         title: "Backend Engineering",
@@ -22,7 +22,7 @@ export const servicesData = [
   {
     title: "Security & Compliance",
     description:
-      "Downtime and breaches cost trust and revenue. I harden apps against real threats and build automated compliance-readiness into your stack from day one.",
+      "Downtime and breaches cost trust and revenue. We harden apps against real threats and build automated compliance-readiness into your stack from day one.",
     items: [
       {
         title: "Threat Detection",
@@ -41,7 +41,7 @@ export const servicesData = [
   {
     title: "Automation & AI",
     description:
-      "Manual, repetitive work slows teams down. I build AI-driven automation — bots, workflows, smart systems— that save hours every week.",
+      "Manual, repetitive work slows teams down. We build AI-driven automation — bots, workflows, smart systems— that save hours every week.",
     items: [
       {
         title: "Automated Workflows",
@@ -60,7 +60,7 @@ export const servicesData = [
   {
     title: "Web & Mobile Apps",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love — functional and fast on every screen.",
+      "A clunky interface can sink even the best ideas. We craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love — functional and fast on every screen.",
     items: [
       {
         title: "POS & CMS Systems",

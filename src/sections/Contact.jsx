@@ -8,11 +8,11 @@ const Contact = () => {
   const text = `Got a question, how or project Idea?
     WE’D love to hear from you and discus further!`;
   const items = [
-    "just imagin, I'll build",
-    "just imagin, I'll secure",
-    "just imagin, I'll deploy",
-    "just imagin, I'll test",
-    "just imagin, I'll refactor",
+    "just imagin, We'll build",
+    "just imagin, We'll secure",
+    "just imagin, We'll deploy",
+    "just imagin, We'll test",
+    "just imagin, We'll refactor",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -34,7 +34,7 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subTitle={"You bring the vision, I bring the build"}
+          subTitle={"You bring the vision, We bring the build"}
           title={"Contact"}
           text={text}
           textColor={"text-white"}

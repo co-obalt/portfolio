@@ -6,10 +6,10 @@ import gsap from "gsap";
 
 const About = () => {
   const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
+    We build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `I care about code that holds up under real traffic and
-real users, not just demos. When I'm not building:
+  const aboutText = `We care about code that holds up under real traffic and
+real users, not just demos. When we're not building:
 ⚡ Running DELTARQ, building first fully autonomous AI-native security company.
 🎯 Freelancing, Turning ideas into shipped products`;
   const imgRef = useRef(null);

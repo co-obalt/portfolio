@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const text = `I help growing brands and startups gain an
+  const text = `We help growing brands and startups gain an
 unfair advantage through premium
 results driven webs/apps`;
   return (
